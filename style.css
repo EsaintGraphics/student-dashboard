@@ -191,3 +191,15 @@ a:hover{
 .js{
   color: rgb(28, 98, 179);
 }
+
+@media (max-width: 480px){
+    nav{
+        display: none;
+    }
+    .main-skills{
+        flex-wrap: wrap;
+    }
+}   .main-skills .card{
+    flex-wrap: nowrap;
+    
+}
